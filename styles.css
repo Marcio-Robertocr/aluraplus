@@ -142,11 +142,15 @@ body{
     padding: 1em 1em;
 }
 
+.icones:hover{
+    background-color: var(--botao-azul);
+}
+
 .rodape__lista{
     display: flex;  
     justify-content: center;
     list-style-type: none;
-    margin-top: 1em;
+    margin: 2em 0;
 }
 
 .lista__link a{
